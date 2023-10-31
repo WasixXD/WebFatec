@@ -20,11 +20,11 @@ function pegarHorario() {
     const hora = new Date().getHours()
     if(hora > 6 && hora < 12) {
         console.log(hora)
-        trocaMensagem("BOM DIA", "#FAB32F", "/images/manha.png")
+        trocaMensagem("BOM DIA", "#FAB32F", "./images/manha.png")
     } else if(hora < 18) {
-        trocaMensagem("BOA TARDE", "#E83F35", "/images/tarde.png")
+        trocaMensagem("BOA TARDE", "#E83F35", "./images/tarde.png")
     } else {
-        trocaMensagem("BOA NOITE", "#252160", "/images/noite.png")
+        trocaMensagem("BOA NOITE", "#252160", "./images/noite.png")
     }
     
 }
